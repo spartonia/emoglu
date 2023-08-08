@@ -1,0 +1,113 @@
+.product-1 .CarToy {
+    width: 250px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 60px;
+    margin-bottom: 20px;
+}
+
+.product-1 .helicopter {
+    width: 250px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 60px;
+    margin-bottom: -18px;
+}
+
+.product-1 .horse {
+    width: 200px;
+    height: 150px;
+    align-items: center;
+    justify-content: center;
+    margin-left: 25px;
+    margin-top: 60px;
+    margin-bottom: 8px;
+}
+
+.product-1 .zing-zing {
+    width: 180px;
+    height: 150px;
+    align-items: center;
+    justify-content: center;
+    margin-left: 25px;
+    margin-top: 60px;
+    margin-bottom: 8px;
+}
+
+.product-1 .trin {
+    width: 200px;
+    height: 150px;
+    align-items: center;
+    justify-content: center;
+    margin-left: 25px;
+    margin-top: 60px;
+    margin-bottom: 8px;
+}
+
+.product-1 .air {
+    width: 250px;
+    height: 150px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 60px;
+    margin-bottom: 8px;
+}
+
+.product-1 .water-gun {
+    width: 200px;
+    height: 150px;
+    align-items: center;
+    justify-content: center;
+    margin-left: 25px;
+    margin-top: 60px;
+    margin-bottom: 8px;
+}
+
+.product-1 .house-building {
+    width: 250px;
+    align-items: center;
+    justify-content: center;
+    margin-left: 25px;
+    margin-top: 10px;
+    margin-bottom: -45px;
+}
+
+.product-1 .dog {
+    width: 180px;
+    height: 180px;
+    align-items: center;
+    justify-content: center;
+    margin-left: 25px;
+    margin-top: 33px;
+    margin-bottom: 8px;
+}
+
+.product-1 .duck {
+    width: 200px;
+    height: 150px;
+    align-items: center;
+    justify-content: center;
+    margin-left: 25px;
+    margin-top: 60px;
+    margin-bottom: 8px;
+}
+
+.product-1 .tedy {
+    width: 230px;
+    height: 150px;
+    align-items: center;
+    justify-content: center;
+    margin-left: 15px;
+    margin-top: 60px;
+    margin-bottom: 8px;
+}
+
+.product-1 .camera {
+    width: 200px;
+    height: 150px;
+    align-items: center;
+    justify-content: center;
+    margin-left: 25px;
+    margin-top: 60px;
+    margin-bottom: 8px;
+}

@@ -1,0 +1,145 @@
+/* <!-- این قسمت مربوط به هدر سایت است کد100--> */
+.name {
+    display: flex;
+    background-color: white;
+    align-items: center;
+    justify-content: center;
+}
+
+.web-name {
+    font-family: 'Permanent Marker', cursive, arial;
+    background-color: white;
+    width: 100%;
+    height: 150px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 70px;
+    display: flex;
+    position: fixed;
+}
+.heder {
+    margin-top: 80px;
+    margin-left: 60px;
+    margin-right: 60px;
+    background-color: rgb(249, 236, 230);
+    display: flex;
+    color: white;
+    height: 70px;
+    justify-content: space-between;
+    top: 0;
+    right: 0;
+    left: 0;
+    position: fixed;
+    align-items: center;
+    border: none;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    
+    z-index: 100;
+}
+
+.left-icon {
+    margin-left: 5px;
+    display: flex;
+    flex: 1;
+    max-width: 500px;
+}
+
+.left-icon button {
+    margin-right: 5px;
+    min-width: 50px;
+    max-width: 100px;
+    height: 50px;
+    flex: 1;
+    border-radius: 25px;
+    border: none;
+    background-color: rgb(247, 194, 169);
+}
+
+.left-icon button:hover {
+    background-color: #f63478;
+}
+
+.shop {
+    width: 30px;
+    align-items: center;
+}
+
+.user {
+    width: 30px;
+    align-items: center;
+}
+
+.home {
+    width: 30px;
+    align-items: center;
+}
+
+.menu {
+    width: 30px;
+    align-items: center;
+}
+
+.middle-icon {
+    display: flex;
+    margin-right: 5px;
+    flex: 1;
+    max-width: 500px;
+}
+
+.search-box {
+    height: 50px;
+    background-color: rgb(252, 222, 209);
+    flex: 1;
+    min-width: 0;
+    width: 0;
+    font-size: 18px;
+    padding-left: 10px;
+    font-family: Roboto, arial;
+    vertical-align: top;
+    border: none;
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+    box-shadow: inset 0px 1px 2px rgb(0, 0, 0, 0.05);
+}
+
+.search-button {
+    height: 50px;
+    align-items: center;
+    margin-right: 5px;
+    border: none;
+    width: 60px;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+    background-color: rgb(247, 194, 169);
+}
+
+.search {
+    width: 30px;
+}
+
+.voice-search-button {
+    margin-right: 0;
+    flex: 1;
+    height: 50px;
+    width: 50px;
+    max-width: 100px;
+    border-radius: 25px;
+    border: none;
+    background-color: rgb(247, 194, 169);
+    margin-right: 5px;
+
+
+}
+
+.voice-search {
+    height: 30px;
+}
+
+.right-icon {
+    display: flex;
+}
+
+.heder-text {
+    width: 150px;
+}

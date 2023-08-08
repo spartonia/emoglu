@@ -1,0 +1,111 @@
+/* <!-- این قسمت مربوط به نوشته ی محصولات پیشنهادی است کد 102--> */
+.heder-product {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pro-text {
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+/* <!-- این قسمت مربوط به محصولات پیشنهادی است کد 103--> */
+.Suggested-products {
+    background-color: rgb(213, 207, 199);
+    margin-left: 52px;
+    margin-right: 52px;
+    /* padding-left: 100px;
+    padding-right: 100px; */
+    padding-top: 50px;
+    border-radius: 10px;
+    display: flex;
+}
+
+.all-products{
+    display: grid;
+    width: 1078px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin: auto;
+
+
+}
+
+.grid-product-info {
+    background-color: antiquewhite;
+    width: 250px;
+    height: 380px;
+    border-style: solid;
+    margin-bottom: 50px;
+    margin-right: 20px;
+    border-color: rgb(209, 196, 179);
+    border-radius: 10px;
+    border-width: 2px;
+}
+
+.text-new{
+    background-color: rgb(233, 231, 231);
+    padding-left: 18px;
+    padding-right: 18px;
+    padding-top: 23px;
+    padding-bottom: 23px;
+    border-radius: 100%;
+    margin-left: -25px;
+}
+
+
+
+.toy-information{
+    margin-top: 100px;
+}
+
+.toy-name{
+    display: inline;
+    margin-right: 70px;
+    margin-left: 10px;
+}
+.toy-price{
+    display: inline;
+}
+.product-1 p {
+    font-family: Roboto, Arial;
+    font-size: 20px;
+    display: inline;
+
+}
+
+.product-1 u {
+    color: red;
+}
+@media(min-width :1231px){
+    .all-products {
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+}
+@media(min-width : 381px) and (max-width : 1260px){
+    .all-products {
+        grid-template-columns: 1fr 1fr 1fr;
+        margin: auto;
+        width: 802px;
+    }
+}
+
+@media(max-width : 988px) {
+    .all-products {
+        grid-template-columns: 1fr 1fr;
+        margin: auto;
+        width: 530px;
+    }
+}
+
+@media(max-width : 710px) {
+    .all-products {
+        grid-template-columns: 1fr;
+        margin: auto;
+        width: 250px;
+    }
+}
+
+
+

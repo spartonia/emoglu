@@ -1,0 +1,93 @@
+/* قسمت صورتی رنگ بعد از قسمت هدر سایت که می تونیم در این قسمت تبلیغات و آفر ها را در این قسمت قرار داد کد 101 */
+.graid-adver {
+  margin-top: 141px;
+  margin-left: 52px;
+  margin-right: 52px;
+  background-color: rgb(248, 156, 171);
+  display: grid;
+  color: white;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 100;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+.slider_container {
+  color: #fefefe;
+  background-color: #000000;
+  background-color: #f89cab;
+  padding: 25px;
+  border-radius: 0 0 15px 15px;
+}
+
+.slider_section .row {
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.img-box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  padding: 45px;
+}
+
+.img-box img {
+  width: 275px;
+  height: 300px;
+  margin-left: 0;
+  padding-left: 0;
+}
+
+.detail-box {
+  padding-left: 45px;
+  margin: 45px;
+}
+
+.detail-box h1 {
+  font-weight: bold;
+  font-size: 3.5rem;
+  margin-bottom: 10px;
+}
+
+.detail-box p{
+  font-size: 24px;
+  font-weight: 400;
+  font-family: 'Edu SA Beginner';
+}
+
+.detail-box a {
+  display: inline-block;
+  padding: 10px 40px;
+  background-color: #db4566;
+  color: #ffffff;
+  border: 1px solid #db4566;
+  border-radius: 5px;
+  -webkit-transition: all .3s;
+  transition: all .3s;
+  margin-top: 25px;
+  text-transform: uppercase;
+}
+
+.detail-box a:hover {
+  background-color: transparent;
+  color: #db4566;
+}
+
+
+@media(min-width :230px){
+  .graid-adver {
+      grid-template-columns: 1fr ;
+  }
+}
+@media(min-width : 1000px) {
+  .graid-adver {
+      grid-template-columns: 1fr 1fr ;
+  }
+}
